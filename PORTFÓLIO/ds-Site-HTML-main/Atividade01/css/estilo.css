@@ -1,0 +1,307 @@
+/*CSS ESTILO arquivo: estilo.css*/
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    font-family: 'Arimo', sans-serif;
+    padding: 0px;
+}
+body
+{
+    margin: 0;
+    background-image: linear-gradient(-100deg,#00C48C, #00C48C, #00625F);
+    color: rgb(255, 255, 255);
+    background-attachment: fixed;
+    text-align: center;
+}
+.conteudo-navegacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color:  #111825;
+    margin: 0;
+    height: 90px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 1px 2px 3px #02152578;
+    color: white;
+    margin-bottom: 40px;
+    align-items: center;
+    gap: 200px;
+}
+
+.conteudo-inicio{
+    margin: 230px;
+}
+
+
+.links{
+    display: flex;
+    gap: 30px;
+    font-size: 20px;
+}
+
+.links > a{
+    text-decoration: none;
+    color: white;
+}
+.links > a:hover {
+    color: #01C38E;
+}
+
+.navegacao-site{   
+    display: flex;
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    color: #00C48C;
+    align-items: center;
+}
+.texto-direita{
+    color: #01C38E; 
+    text-align: left;
+    margin: 0;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+}
+.texto-direita > h2{
+    margin: 0;
+    font-size: 150%;
+    color: #01C38E;
+}
+.texto-esquerda{
+    margin: 0;
+    color: #01C38E; 
+    text-align: center;
+    text-shadow: 1px 1px 10px rgba(97, 97, 97, 0.329);
+}
+.texto-esquerda > h2{
+    margin: 0;
+    font-size: 200%;
+    color: #006360;
+    text-shadow: #111825;
+}
+.conteudo-bg{
+    text-align: center;    
+    background-color: white;
+    width: 1300px;
+    height: auto;
+    margin: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;
+    box-shadow: 1px 1px 10px rgb(97, 97, 97);
+    color: #00C48C;
+}
+
+.botao{
+    text-decoration: none;
+    background-image: linear-gradient(-160deg,#00C48C, #00625F);
+    padding: 10px 30px;
+    text-align: center;
+    box-shadow: 1px 2px 5px #2b2c2c50;
+    border-radius: 20px;
+    font-size: 1.5em;
+    border: none;
+    color: white;
+}
+.botao > a{
+    color: white;
+    text-decoration: none;
+}
+.botao:hover >a{
+    color: #a7ffe8;
+}
+.bg-imagem{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    color: #01C38E;
+    padding-bottom: 40px;
+    box-shadow: 1px 8px 10px #2b2c2c2d;
+}
+.quadrado-imagem{
+    padding: 1%;
+    width: 235px;
+    height: 210px;
+    background-color: #ffffff;
+    box-shadow: 1px 3px 10px #2b2c2c57;
+    text-shadow: 1px 3px 5px #00000028;
+}
+.quadrado-imagem > h2{
+    font-size: 22px;
+}
+img{
+width: 180px; 
+}
+.bg-tabelas{
+    background-color: white;
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+.segunda-navegacao-site{
+    background-color: white;
+    width: auto;
+    height: auto;
+    margin: auto;
+    padding-bottom: 40px;
+    padding-top: 80px;
+    color: #00C48C;
+}
+.segunda-navegacao-site > h1{
+    margin-top: 100px;
+}
+table{
+    border-collapse: collapse;
+    width: 600px;
+    margin: auto;
+    margin-bottom: 70px;
+}
+th{     
+    background-color: #00625F;
+    color:#ffffff;
+    padding: 3%;
+    font-size: 23px;
+}
+td {
+    font-size: 18px;
+    border-bottom: 1px solid #111825;
+    padding: 15px;
+    color: #000000;
+}
+.navegacao-site-sem-bg{
+    display: flex;
+    width: auto;
+    height: auto;
+    margin: 0;
+    padding-bottom: 150px;
+    padding-top: 50px;
+    justify-content: space-evenly;
+    color: white;
+    align-items: center;
+}
+.texto-direita-sem-bg{
+    color: #ffffff; 
+    text-align: left;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+}
+.texto-direita-sem-bg > h2{
+    margin: 0;
+    font-size: 20px;
+}
+.texto-esquerda-sem-bg{
+    margin: 0;
+    color: #ffffff; 
+    text-align: left;
+    text-shadow: 1px 1px 10px rgba(97, 97, 97, 0.329);
+}
+.texto-esquerda-sem-bg >h1{
+    margin: 0;
+    font-size: 30px;
+    text-shadow: #111825;
+}
+
+
+.bg-flutuante{
+    padding-top: 40px;
+    width: 700px;
+    border-radius: 12px;
+    text-align: center;
+    background-color: white;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.384);
+    padding-bottom: 30px;
+    color: #006360;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.205);
+}
+.formulario{
+    margin: 40px auto 40px auto;
+    display: flex;
+    gap: 100px;
+    justify-content: space-evenly;
+    color: #00C48C;
+}
+.respostas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 23px;
+}
+.resposta-select{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    border: none;
+    padding: 4px 6px;
+    border: 1px solid #00625F;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.input-resposta {
+    border: none;
+    padding: 4px 6px;
+    border: 1px solid #00625F;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.titulo-form{
+    font-size: 40px;
+    color: #006360;
+    width: 700px;
+    margin: auto;
+}
+.selecao-novidades{
+    margin: 0;
+    display: flex; 
+}
+.formatacao-novidades{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+.envie-mensagem{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+    width: 360px;
+    margin: 30px auto;
+    color: #00625F;
+}
+#mensagem{
+    resize: none;
+    width: 360px;
+    border-color: #00625F;
+    border-radius: 5px;
+}
+.espacamento{
+    width: 300px;
+    margin: 20px auto 20px auto;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+}
+.img-balao{
+    width: 300px;
+}
+.nossa-equipe{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 12px;
+    margin: auto;
+    color: white;
+    align-items: center;
+    padding-bottom: 30px;
+    width: 1200px;
+}

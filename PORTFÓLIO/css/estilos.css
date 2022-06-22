@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nuosu+SIL&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body{
+    background-color: #FFDFD3;
+    background-attachment: fixed;
+}
+
+.header{
+    overflow: auto;
+    font-size: 20px;
+    border-bottom: #7E0306 5px solid;
+}
+
+.divisao{
+    border-top: #7E0306 6px solid;
+}
+
+.header h1{
+    color: #7E0306;
+    float: left;
+    display: block;
+    padding-left: 2%;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+}
+
+.header a{
+    color: #7E0306;
+    float: right;
+    font-size: 21px;
+    padding-right: 3%;
+    padding-top: 3%;
+    font-family: 'Nuosu SIL', serif;
+    text-align: justify;
+}
+
+#houseimg{
+    width: 100px;
+    float: left;
+}
+
+.quemsou{
+    max-width: 499px; 
+    color: #7E0306;
+}
+
+
+.quemsou img{
+    width: 50px;
+}
+
+
+#divFoto img{
+    object-fit: contain;
+    width: 90%;
+    border-radius: 50%;
+    max-width: 499px ;
+    display: flex;
+    padding-top: 10px;
+}
+
+#main{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+}
+
+.titulo{
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    color: #7E0306;
+    display: block;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.paragrafo{
+    font-family: 'Nuosu SIL', serif;
+    text-align: justify;
+    color: #7E0306;
+    font-size: 25px;
+}
+
+
+#hobbies{
+    margin: 110px;
+    flex-wrap: wrap-reverse;
+    align-items: center;
+}
+
+.duas-colunas{
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    align-items: center;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.duas-colunas img{
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+    align-items: center;
+    text-align: justify;
+}
+
+.videos {
+    align-items: center;
+    justify-content: space-around;
+}
+
+#alinhar-direita{
+    float: right;
+    text-align: justify;
+    max-width: 48%;
+}
+
+#titulo-2{
+    font-family: 'Staatliches', cursive;
+    font-size: 35px;
+    text-align: center;
+    color: #7E0306;
+}
+
+.fotos{
+    width: 270px;
+    height: 270px;
+    align-items: center;
+    border-radius: 5%;
+}
+
+#links-fotos{
+    color: #687e52;
+    font-size: 25px;
+    font-family: 'Nuosu SIL', serif;
+    text-align: center;
+}
+
+#foto-morro{
+    width: 493px;
+    height: 327px;
+    border-radius: 5%;
+    text-align: center;
+}
+
+#centro{
+    text-align: center;
+}
+
+
+#fotos-retangulo{
+    width: 460px;
+    height: 320px;
+    border-radius: 10%;
+}
+
+#passe-mouse {
+    color: #687e52;
+    font-size: 20px;
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+}
+
+footer{
+    color: #7E0306;
+    width: 100%;
+}
+
+footer a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
