@@ -9,11 +9,21 @@
     <title>Portfólio da Maria</title>
     <!--- Autor: Maria Eduarda Ribeiro Viana-->
 
-    <script src="js/script.js"></script>
+    <script>
+        function entrada(){
+        nome= prompt ("Um novo integrante por aqui? Diga seu nome: ");
+        return "Seja muito bem vindo(a) "+nome;
+    }
+    </script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
+    <script>
+        alert(entrada())
+    </script>
+
     <header class="header">
+
         <div>
             <img id="houseimg" src="img/avatar300.gif" alt="">
         </div>
@@ -102,8 +112,19 @@
         </div>
     </div>
 
-    <footer>
+    <footer id="colunas-footer">
+       
+        <p id="passe-mouse">Fale comigo</p>
+      
+        <!--– indica a URL da aplicação que deve ser chamada
+            quando o usuário clica no
+            botão submit-->
 
+        <div id="barra-inferior">
+        <a href="https://www.instagram.com/dudarib69/"><img src="img/icone-instagram.png" alt=""></a>
+        <a href="https://github.com/mariarviana"><img src="img/GitHub-Light.png" alt=""></a>
+        <a href="https://open.spotify.com/user/jfeceru9hlfgpd4ibrk1usnyu?si=002ac4eb199c4301"><img src="img/icone-spotify.png" alt=""></a>
+        </div>
     </footer>
 
 </body>
